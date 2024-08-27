@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./Hero.css";
+import aqil from "../assets/aqil.png";
 
 class Hero extends Component {
   render() {
@@ -7,10 +8,11 @@ class Hero extends Component {
       <div>
         <section class="hero">
           <div class="hero-text">
-            <h1>Selamat Datang di Website Saya</h1>
-            <p>Ini adalah contoh hero section menggunakan HTML dan CSS.</p>
+            <h1>Fintech Syariah </h1>
+            <p>ayo join bisnis kamu</p>
             <button>Baca Selengkapnya</button>
           </div>
+          <img src={aqil} alt="aqil" />
         </section>
       </div>
     );

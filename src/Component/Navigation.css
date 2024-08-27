@@ -32,3 +32,9 @@ nav .navbar-nav a:after {
 nav .navbar-nav a:hover::after {
   transform: scaleX(0.5);
 }
+
+@media (max-width: 428px) {
+  nav {
+    display: none;
+  }
+}
